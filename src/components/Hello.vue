@@ -13,12 +13,8 @@
         </div>
       </draggable>
       <hr />
-
-<<<<<<< Updated upstream
-       <input v-model="itemData" placeholder="Add New FootBaller" />
-=======
       <input v-model="itemData" placeholder="Add New FootBaller" />
->>>>>>> Stashed changes
+
       <button v-on:click="addItem(itemData)">Add New</button>
     </div>
 
