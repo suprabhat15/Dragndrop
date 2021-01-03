@@ -1,12 +1,20 @@
-# draggable-example
+# DragnDrop
+This repository is about the implementation of simple *DragnDrop* in _VueJS_. Cards can be dragged from Sidebar and dropped to the dropzones.
+Some **Extra** features are also added. For eg. :-
+```
+1. Adding a Card at the top/bottom of the Sidebar.
 
-> Example usage of [vue.draggable](https://github.com/SortableJS/Vue.Draggable)
+2. Deleting a Card from the Sidebar/DropZones.
 
-![demo gif](example.gif)
+```
+Image -
+![alt text](https://github.com/suprabhat25/Dragndrop/blob/main/src/Images/Vue7.PNG "Image 1")
 
-## Live demo
+**Whenever any Card is reordered in the DropZones, its ID gets updated as per its position.**
+![alt text](https://github.com/suprabhat25/Dragndrop/blob/main/src/Images/Vue3.PNG "Image 2")
 
-https://david-desmaisons.github.io/draggable-example/
+**Updation of ID -** 
+![alt text](https://github.com/suprabhat25/Dragndrop/blob/main/src/Images/Vue2.PNG "Image 3")
 
 ## Build Setup
 
