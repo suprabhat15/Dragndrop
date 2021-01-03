@@ -16,6 +16,9 @@ Some **Extra** features are also added. For eg. :-
 **Updation of ID -** 
 ![alt text](https://github.com/suprabhat25/Dragndrop/blob/main/src/Images/Vue2.PNG "Image 3")
 
+
+![alt text](https://github.com/suprabhat25/Dragndrop/blob/main/src/Images/Vue10.PNG "Image 3")
+
 ## Build Setup
 
 ``` bash
