@@ -14,7 +14,11 @@
       </draggable>
       <hr />
 
+<<<<<<< Updated upstream
        <input v-model="itemData" placeholder="Add New FootBaller" />
+=======
+      <input v-model="itemData" placeholder="Add New FootBaller" />
+>>>>>>> Stashed changes
       <button v-on:click="addItem(itemData)">Add New</button>
     </div>
 
@@ -70,7 +74,7 @@ export default {
     addItem: function(itemData) {
       let newData = this.list1;
 
-      newData.push({ name: itemData });
+      newData.unshift({ name: itemData });
 
       this.list1 = newData;
     },
