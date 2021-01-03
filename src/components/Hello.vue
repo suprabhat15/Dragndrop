@@ -5,7 +5,7 @@
       <draggable
         class="dragArea"
         :list="list1"
-        :group="{ name: 'elements', put: false }"
+        :group="{ name: 'elements',pull:'clone', put: false }"
       >
         <div class="card" v-for="(element, index) in list1" :key="index">
           {{ element.name }}
@@ -14,11 +14,8 @@
       </draggable>
       <hr />
 
-<<<<<<< Updated upstream
        <input v-model="itemData" placeholder="Add New FootBaller" />
-=======
-      <input v-model="itemData" placeholder="Add New FootBaller" />
->>>>>>> Stashed changes
+    
       <button v-on:click="addItem(itemData)">Add New</button>
     </div>
 
