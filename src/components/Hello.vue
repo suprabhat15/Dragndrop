@@ -14,8 +14,8 @@
       </draggable>
       <hr />
 
-      <!-- <input v-model="itemData" placeholder="Add New FootBaller" />
-      <button v-on:click="addItem(itemData)">Add New</button> -->
+       <input v-model="itemData" placeholder="Add New FootBaller" />
+      <button v-on:click="addItem(itemData)">Add New</button>
     </div>
 
     <div>
@@ -42,7 +42,6 @@
       </draggable>
     </div>
 
-    <p>{{ JSON.stringify(list3) }}</p>
   </div>
 </template>
 
