@@ -7,7 +7,8 @@ Some **Extra** features are also added. For eg. :-
 2. Deleting a Card from the Sidebar/DropZones.
 
 ```
-Image : ![alt text](https://github.com/suprabhat25/Dragndrop/blob/main/src/Images/Vue7.PNG "Image 1")
+
+![alt text](https://github.com/suprabhat25/Dragndrop/blob/main/src/Images/Vue7.PNG "Image 1")
 
 **Whenever any Card is reordered in the DropZones, its ID gets updated as per its position.**
 ![alt text](https://github.com/suprabhat25/Dragndrop/blob/main/src/Images/Vue3.PNG "Image 2")
